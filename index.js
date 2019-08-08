@@ -22,4 +22,6 @@ server.get('/', (req, res) => {
     res.send(`<h2>Let's write some middleware!</h2>`)
   });
 
-server.listen(8000, () => console.log('\n All Clear for Take Off, Star Fox \n'));
+const port = process.env.PORT || 8000;
+
+server.listen(port, () => console.log(`\n All Clear for Take Off at ${port}, Star Fox \n`));

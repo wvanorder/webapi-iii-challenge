@@ -10,19 +10,19 @@ You are allowed, and **encouraged**, to collaborate with other peers. Please fol
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x ] Create a forked copy of this project.
+- [ x] Add your project manager as collaborator on Github.
+- [ x] Clone your OWN version of the repository.
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [ x] Add your project manager as a reviewer on the pull-request
+- [x ] Your project manager will count the project as complete by merging the branch back into master.
+- [x ] Do your magic!
 
 ## Minimum Viable Product
 
@@ -32,11 +32,11 @@ Follow these steps for completing your project.
 
 #### Custom Middleware Requirements
 
-- `logger()`
+- X`logger()`
   - `logger` logs to the console the following information about each request: request method, request url, and a timestamp
   - this middleware runs on every request made to the API
 
-- `validateUserId()`
+- X`validateUserId()`
   - `validateUserId` validates the user id on every request that expects a user id parameter
   - if the `id` parameter is valid, store that user object as `req.user`
   - if the `id` parameter does not match any user id in the database, cancel the request and respond with status `400` and `{ message: "invalid user id" }`
